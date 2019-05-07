@@ -1,5 +1,5 @@
 module.exports = {
-  title: '益达的博客',
+  title: '益达的简历',
   description: '有一些事情需要记录，会写在这里吧',
   base: '/blog-vuepress/',
   themeConfig: {
@@ -12,6 +12,7 @@ module.exports = {
     sidebar: {
       '/blog/': [
         '',
+        'project',
         {
           title: 'Vue',
           children: ['vue/'],
